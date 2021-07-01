@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Blue-Navbar.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-4---Photo-Gallery.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
     <link rel="stylesheet" href="assets/css/Customizable-Background--Overlay.css">
+    <link rel="stylesheet" href="assets/css/dh-navbar-centered-brand.css">
     <link rel="stylesheet" href="assets/css/dh-row-text-image-right-responsive.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
@@ -21,32 +23,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/News-Cards.css">
     <link rel="stylesheet" href="assets/css/Responsive-Youtube-Embed.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/TPC-Navigation-with-Phone-Left-Logo-Centered-Menu-Right.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
-        <div class="container"><a class="navbar-brand" href="index.html">OHANA</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color: rgb(218,123,174);">
+        <div class="container"><a class="navbar-brand" href="index.html">Ohana</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse"
                 id="navcol-1">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link text-dark" href="index.html">INICIO</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="QUIENES%20SOMOS.html">¿QUIENES SOMOS?</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="PREGUNTAS%20FRECUENTES.html">PREGUNTAS FRECUENTES</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="CONTACTO.html">CONTACTO</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="JUGUETES.html">JUGUETES</a>
-                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="ENCASTRE.html">ENCASTRE</a><a class="dropdown-item" role="presentation" href="JUEGO%20SIMBOLICO.html">JUEGO SIMBOLICO</a><a class="dropdown-item" role="presentation" href="MOVIMIENTO%20LIBRE.html">MONTESSORI</a></div>
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link text-light" href="index.html">Inicio</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-light" href="PREGUNTAS%20FRECUENTES.html">Preguntas frecuentes</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-light" href="CONTACTO.html">Contacto</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-light" href="QUIENES%20SOMOS.html">Nosotros</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-light" data-toggle="dropdown" aria-expanded="false" href="ENCASTRE.html">Juguetes</a>
+                        <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Encastre</a><a class="dropdown-item" role="presentation" href="JUEGO%20SIMBOLICO.html">Juego simbolico</a><a class="dropdown-item" role="presentation" href="MOVIMIENTO%20LIBRE.html">Montessori</a></div>
                     </li>
-                    <li class="nav-item" role="presentation"></li>
-                </ul>
-            </div>
+                </ul><span class="navbar-text actions"> </span></div>
         </div>
     </nav>
     <div>
-        <div class="container-fluid">
+        <div class="container-fluid" style="height: 719px;margin: 0px;width: 1353px;padding: 60px;">
             <hr>
             <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
                     name="to" value="email@awebsite.com">
@@ -56,22 +58,22 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="col-12 col-md-6" id="message">
+                    <div class="col-12 col-md-6" id="message" style="margin: 0px;padding: 12px;">
                         <h2 class="h4"><i class="fa fa-envelope"></i> Contactos<small><small class="required-input">&nbsp;(*obligatorio)</small></small>
                         </h2>
                         <div class="form-group"><label for="from-name">Nombre</label><span class="required-input">*</span>
                             <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="from-name" name="name" required="" placeholder="Full Name"></div>
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control" type="text" id="Nombre-completo" name="name" required="" placeholder="Nombre completo"></div>
                         </div>
                         <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
                             <div class="input-group">
-                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="from-email" name="email" required="" placeholder="Email Address"></div>
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="from-email" name="email" required="" placeholder="Gmail"></div>
                         </div>
                         <div class="form-row">
                             <div class="col-12 col-sm-6 col-md-12 col-lg-6">
                                 <div class="form-group"><label for="from-phone">Telefono</label><span class="required-input">*</span>
                                     <div class="input-group">
-                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="from-phone" name="phone" required="" placeholder="Primary Phone"></div>
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="from-phone" name="phone" required="" placeholder="Numero de telefono"></div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-6 col-md-12 col-lg-6">
@@ -81,16 +83,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group" style="margin-top: 31px;"><label for="from-comments">Comentario</label><textarea class="form-control" id="from-comments" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                        <div class="form-group" style="margin-top: 31px;"><label for="from-comments">Comentario</label><textarea class="form-control" id="from-comments" name="comments" placeholder="Escribe comentario" rows="5"></textarea></div>
                         <div class="form-group">
                             <div class="form-row">
-                                <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i>&nbsp;Volver</button></div>
-                                <div class="col"><button class="btn btn-primary btn-block" type="submit">Enviar&nbsp;<i class="fa fa-chevron-circle-right"></i></button></div>
+                                <div class="col"><a class="btn btn-primary btn-block" role="button" href="index.html"><i class="fa fa-undo"></i>&nbsp;Volver</a></div>
+                                <div class="col"><a class="btn btn-primary active" role="button">Enviar&nbsp;<i class="fa fa-chevron-circle-right"></i></a></div>
                             </div>
                         </div>
                         <hr class="d-flex d-md-none">
                     </div>
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6" style="padding: -60px;">
                         <h2 class="h4"><i class="fa fa-location-arrow"></i>&nbsp;Ubicación</h2>
                         <div class="form-row">
                             <div class="col-12"><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDQEwFbQXVIpWqXjBNZHXmzEUtzrHxKOxs&amp;q=ca%C3%B1ada+seca&amp;zoom=16" width="100%" height="400"></iframe>
@@ -226,9 +228,9 @@
                             <li><a href="#">Cañada Seca</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-3 item social"><a href="#" style="background-color: #ffffff;"><i class="icon ion-social-facebook"></i></a><a href="#" style="background-color: #ffffff;"><i class="icon ion-social-twitter"></i></a><a href="#" style="background-color: #ffffff;"><i class="icon ion-social-snapchat"></i></a>
+                    <div class="col-lg-3 item social"><a href="https://www.facebook.com/ohana.cseca" style="background-color: #ffffff;"><i class="icon ion-social-facebook"></i></a><a href="#" style="background-color: #ffffff;"><i class="icon ion-social-twitter"></i></a><a href="#" style="background-color: #ffffff;"><i class="icon ion-social-snapchat"></i></a>
                         <a
-                            href="#" style="background-color: #ffffff;"><i class="icon ion-social-instagram"></i></a>
+                            href="https://www.instagram.com/ohana.cseca/?hl=es-la" style="background-color: #ffffff;"><i class="icon ion-social-instagram"></i></a>
                             <p class="copyright">OHANA © 2021</p>
                     </div>
                 </div>
